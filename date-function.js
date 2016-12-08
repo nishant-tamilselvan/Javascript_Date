@@ -30,9 +30,16 @@ $(document).ready(function(){
         var m = date.getMonth();
         return new Date(y, m + 1, 0);
     }
+    
     // get the first day of the year
     function getFirstDayOfYear( date ){
         date = new Date(date.getFullYear(), 0, 1);
+        return date;
+    }
+
+    // get the last day of the year
+    function getLastDayOfYear( date ){
+        date = new Date(date.getFullYear(), 11, 31);
         return date;
     }
 
