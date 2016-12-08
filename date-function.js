@@ -30,5 +30,10 @@ $(document).ready(function(){
         var m = date.getMonth();
         return new Date(y, m + 1, 0);
     }
+    // get the first day of the year
+    function getFirstDayOfYear( date ){
+        date = new Date(date.getFullYear(), 0, 1);
+        return date;
+    }
 
 }); // end ready function
