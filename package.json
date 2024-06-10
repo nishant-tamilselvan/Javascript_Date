@@ -1,5 +1,5 @@
 {
-  "name": "@nitta/date-utils",
+  "name": "@nishant_tamilselvan/date-utils",
   "version": "1.0.0",
   "description": "A collection of date utility functions for JavaScript.",
   "main": "date-utilities.js",
