@@ -1,12 +1,11 @@
 {
-  "name": "date-utilities",
+  "name": "@nitta/date-utils",
   "version": "1.0.0",
-  "description": "A complete Javascrpit Date Library",
+  "description": "A collection of date utility functions for JavaScript.",
   "main": "date-utilities.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "Nishant Tamilselvan",
   "license": "MIT"
 }
