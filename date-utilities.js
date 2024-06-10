@@ -99,17 +99,18 @@ function isLeapYear(year) {
     return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
 }
 
-// Example usage
-const date = new Date();
-console.log(getMonday(date)); // First day of the week
-console.log(getSunday(date)); // Last day of the week
-console.log(getFirstDayOfMonth(date)); // First day of the month
-console.log(getLastDayOfMonth(date)); // Last day of the month
-console.log(getFirstDayOfYear(date)); // First day of the year
-console.log(getLastDayOfYear(date)); // Last day of the year
-console.log(addDays(date, 5)); // Add 5 days
-console.log(getISOWeekNumber(date)); // ISO week number
-console.log(formatDate(date, 'YYYY-MM-DD')); // Format date
-console.log(getDayOfYear(date)); // Day of the year
-console.log(isWeekend(date)); // Check if it's a weekend
-console.log(isLeapYear(2023)); // Check if it's a leap year
+
+export default {
+    getMonday,
+    getSunday,
+    getFirstDayOfMonth,
+    getLastDayOfMonth,
+    getFirstDayOfYear,
+    getLastDayOfYear,
+    addDays,
+    getISOWeekNumber,
+    formatDate,
+    getDayOfYear,
+    isWeekend,
+    isLeapYear
+};
