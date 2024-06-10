@@ -100,7 +100,7 @@ function isLeapYear(year) {
 }
 
 
-export default {
+module.exports = {
     getMonday,
     getSunday,
     getFirstDayOfMonth,
